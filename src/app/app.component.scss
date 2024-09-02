@@ -1,0 +1,33 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 16px;
+    flex-direction: column;
+    background-color: #d7e3ff;
+    color: #001b3f;
+    .actions{
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        .keyword{
+            color: red;
+            // font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+        .btn{
+            width: 150px;
+            height: 50px;
+            background-color: #ffffff;
+            color: #005cbb;
+            border: none;
+            border-radius: 25px;
+            margin: 0.5rem;
+            box-shadow: 0.5px 1px 1px blue; 
+        }
+    }
+}
